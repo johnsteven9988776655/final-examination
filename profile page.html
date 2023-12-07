@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profile page</title>
+
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet" />
+    <link 
+    rel="stylesheet" 
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <style>
+        body{
+            width: 100%;
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            min-height: 100vh;
+            font-family: "poppins", sans-serif;
+        }
+        ul{
+            list-style-type: none;
+            margin: 0%;
+            display: flex;
+            padding: 0;
+            align-items: center;
+        }
+        .header_wrapper header {
+            width: 100%;
+            background: url() no repeat 50% 20% / cover;
+            min-height: calc(100px + 15vw);
+
+        }
+        .header_wrapper .cols_container .left_col {
+            padding: 25px 20px;
+            text-align: center;
+            max-width: 350px;
+            position: relative;
+            margin: 0 auto;
+
+        }
+        .header_wrapper .cols_container .left_col .img_container{
+            position: absolute;
+            top: -50px;
+            left:50%;
+            transform: translateX(-50%);
+
+        }
+        .header_wrapper .cols_container .left_col .img_container img{
+            width: 120px;
+            height: 120px;
+            object-fit: cover;
+            border-radius: 50px;
+            display: block;
+            box-shadow: 1px 3px 12px;
+        }
+        .header_wrapper .cols_container .left_col h2{
+            margin-top: 60px;
+            font-weight: 600;
+            font-size: 22px;
+            margin-bottom: 5px;
+        }
+        .header_wrapper .cols_container .left_col p{
+            font-size: 0.9rem;
+            margin: 0;
+        }
+        .header_wrapper .cols_container .left_col .about{
+            justify-content: space-between;
+            position: relative;
+            margin: 35px 0;
+    
+        }
+        .header_wrapper .cols_container .left_col .about li{
+            display: flex;
+            flex-direction: column;
+            font-size: 0.9rem;
+
+        }
+        .header_wrapper .cols_container .left_col .about li span{
+            color: rgb(11, 10, 10);
+            font-weight: 600;
+        }
+        .header_wrapper .cols_container .left_col .about::after{
+            position: absolute;
+            content: "";
+            bottom: -16px;
+            display: block;
+            width: 100%;
+            height: 1px;
+        }
+        .header_wrapper .cols_container .cols_container p{
+            font-size: 1rem;
+            color: rgb(8, 7, 7);
+            line-height: 2em;
+        }
+        .header_wrapper .cols_container .content ul {
+            gap: 30px;
+            justify-content: center;
+            align-items: center;
+            margin-top: 25px;
+
+        }
+        .header_wrapper .cols_container .content ul li {
+            font-size: 1.3rem;
+        } 
+        .header_wrapper .cols_container .right_col nav {
+            display: flex;
+            align-items: center;
+            padding: 30px;
+            justify-content: space-between;
+            flex-direction: column;
+
+        }
+        .header_wrapper .cols_container .right_col nav ul {
+            display: flex;
+            gap: 20px;
+            flex-direction: column;
+
+        }
+        .header_wrapper .cols_container .right_col nav ul a{
+            
+        }
+
+
+    
+    </style>
+</head>
+<body>
+    <div class="header_wrapper">
+        <header></header>
+        <div class="cols_container">
+            <div class="left_col">
+                <div class="img_container">
+                  <img src="download1.jpg" alt="" />  
+                  <span></span>
+                </div>
+                <h2>Sheila Pink</h2>
+                <p>Fashion star</p>
+                <p>fashion</p>
+                <ul class="about">
+                    <li><span>13</span>Following</li><br>
+                    <br><li><span>33.4M</span>Followers</li>
+                </ul>
+                <div class="container">
+                    <p>i like fashion</p><br>
+                
+                    <ul>
+                        <li><i class="fab fa-facebook"></i><span>Facebook</span></li>
+                        <li><i class="fab fa-twitter"></i></li>
+                        <li><i class="fab fa-tiktok"></i></li>
+                        <li><i class="fab fa-whatsapp"></i></li>
+                        <li><i class="fab fa-instagram"></i></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="right_col>">
+                <nav>
+                    <ul>
+                        <li><a href="#">Photos</a></li>
+                        <li><a href="#">Videos</a></li>
+                        <li><a href="#">Groups</a></li>
+                        <li><a href="#">About</a></li>
+                    </ul>
+                    <button>Follow</button>
+                </nav>
+                <div class="photos">
+                    <img src="download4.jpg.crdownload"alt="">
+                    <img src="download5.jpg"alt="">
+                    <img src=".jpg"alt="">
+                    <img src=""alt="">
+                    <img src=""alt="">
+                    <img src=""alt="">
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
